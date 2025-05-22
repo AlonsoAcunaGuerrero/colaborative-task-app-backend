@@ -1,0 +1,29 @@
+[package]
+name = "colaborative-task-app-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+chrono = { version = "0.4.38", features = ["serde"] }
+derive_more =  { version =  "1.0.0", features = ["full"] }
+serde = "1.0.209"
+serde_derive = "1.0.209"
+sqlx = { version = "0.8.2", features = ["postgres", "runtime-tokio-native-tls", "uuid", "chrono"] }
+tokio = { version = "1.40.0", features = ["full"] }
+dotenvy = "0.15"
+argon2 = "0.5.3"
+jsonwebtoken = "9.3.0"
+actix-cors = "0.7.0"
+actix-web-httpauth = "0.8.2"
+actix-multipart = "0.7.2"
+env_logger = "0.11.5"
+
+[dependencies.uuid]
+version = "1.10.0"
+features = [
+    "v4",               
+    "fast-rng",          
+    "macro-diagnostics",
+    "serde"
+]

@@ -26,18 +26,18 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/AlonsoAcunaGuerrero/colaborative-task-app-backend.git
    cd colaborative-task-app-backend
+   ```
 
 2. **Database Setup:**
 
-Use the sql file *`setup.sql`* to create all the needed tables.
+   Use the sql file *`setup.sql`* to create all the needed tables.
 
 3. **Environment Variables:**
 
-Use the next code to configure the backend:
+   Use the next code to configure the backend:
 
-    ```bash
-    DATABASE_URL=postgres://postgres:pass@localhost:5433/postgres
-    PASSWORD_ENCRYPTION_KEY=YOUR_ENCRYPTION_KEY
-    SECRET_KEY=YOUR_SECRET_KEY
-
-    
+      ```bash
+      DATABASE_URL=postgres://postgres:pass@localhost:5433/postgres
+      PASSWORD_ENCRYPTION_KEY=YOUR_ENCRYPTION_KEY
+      SECRET_KEY=YOUR_SECRET_KEY
+      ```
